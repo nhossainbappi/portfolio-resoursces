@@ -9,6 +9,10 @@ header {
   background-image: url(./images/header_bg.png);
   background-repeat: no-repeat;
   background-position: bottom right;
+  
+  
+
+  
 }
 .nav-bar {
   display: flex;
@@ -60,9 +64,10 @@ header {
   justify-content: space-between;
 }
 
-.header-img img {
+.header-img {
   width: 584px;
-  height: 676px;
+
+
 }
 .banner-greeting {
   color: var(--dark-02, #474747);
@@ -77,7 +82,7 @@ header {
 .banner-title {
   color: var(--dark-01, #181818);
 
-  font-size: 85px;
+  font-size: 75px;
 
   font-weight: 700;
   line-height: normal;
@@ -86,10 +91,15 @@ header {
 
 .banner-content p {
   display: flex;
-  width: 585px;
+  width: 500px;
   flex-direction: column;
   flex-shrink: 0;
-  margin-top: 20px;
+  color: var(--dark-03, #757575);
+ 
+  font-size: 15px;
+
+  
+ 
 }
 .btn2 {
   background-color: #fff8f3;
@@ -136,6 +146,9 @@ margin: 80px;
   justify-content: center;
 
 }
+.main-data{
+margin-top: 20px;
+}
 .main-data p{
   margin-right: 20px;
 
@@ -171,3 +184,194 @@ margin: 80px;
   margin-top: 20px;
  
 }
+
+
+.services{
+  display: flex;
+  margin: 50px;
+}
+
+.service{
+  width: 267px;
+height: 367px;
+
+border-radius: 5px;
+background: #FFF;
+box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+margin: 20px;
+}
+
+
+.service img{
+width: 44px;
+height: 44px;
+margin-left: 20px;
+margin-top: 20px;
+}
+.service h1{
+color: var(--dark-01, #181818);
+font-size: 20px;
+font-weight: 700;
+margin-left: 20px;
+margin-top: 10px;
+
+}
+
+.service p{
+  color: var(--dark-03, #757575);
+
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+margin-left: 20px;
+width: 201px;
+margin-top: 10px;
+
+}
+
+
+.my-resume{
+  display: flex;
+  padding-left: 150px;
+  padding-top: 60px;
+}
+
+.education{
+  margin: 20px;
+}
+.education h1{
+  color: var(--dark-02, #474747);
+
+font-size: 30px;
+
+font-weight: 700;
+
+}
+
+.education h3{
+  color: var(--dark-02, #474747);
+
+font-size: 25px;
+
+font-weight: 700;
+margin-top: 20px;
+
+}
+
+.education h6{
+  color: var(--dark-03, #757575);
+
+font-size: 20px;
+
+font-weight: 600;
+
+}
+
+.education p{
+  color: var(--dark-03, #757575);
+
+  font-size: 16px;
+
+  font-weight: 400;
+  line-height: 28px;
+  display: flex;
+width: 511px;
+flex-direction: column;
+margin-top: 20px;
+}
+.resumes{
+
+color: var(--dark-01, #181818);
+text-align: center;
+
+font-size: 35px;
+
+font-weight: 700;
+
+}
+
+.education hr{
+  margin-top: 20px;
+}
+
+
+.downlaod{
+display: flex;
+justify-content: center;
+}
+
+.btn3{
+  padding: 10px 25px;
+  font-weight: 700;
+
+  border: none;
+  background: #fd6e0a;
+  color: aliceblue;
+  margin-top: 50px;
+}
+
+
+.contact{
+background: #FFF8F3;
+padding: 120px;
+margin-top: 80px;
+}
+
+.contacts{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.contacts-details h1{
+  color: var(--dark-01, #181818);
+ 
+
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.contacts-details p{
+  display: flex;
+width: 562px;
+flex-direction: column;
+flex-shrink: 0;
+color: var(--dark-02, #474747);
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+}
+
+.input1{
+   border: none;
+   padding: 10px;
+   margin-top: 20px;
+   width: 250px;
+}
+.input2{
+   border: none;
+   padding: 10px;
+   margin-top: 20px;
+}
+
+.icon2{
+  margin-left: 20px;
+}
+.icon3{
+  margin-left: 20px;
+}
+.icon{
+  margin-top: 10px;
+}
+.foot{
+  background-color: #fff8f3;
+  text-align: center;
+  font-weight: 700;
+  color: #3b3b3b;
+  margin-bottom: 20px;
+}
+
