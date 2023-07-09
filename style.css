@@ -4,23 +4,24 @@
   font-family: "Poppins", sans-serif;
 }
 
-header{
-  background-color: #FFF8F3;
+header {
+  background-color: #fff8f3;
+  background-image: url(./images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
 }
 .nav-bar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 0 200px;
- 
-  
 }
 .nav-bar h3 {
   color: #181818;
   font-size: 45px;
 
   font-weight: 800;
- margin-top: 20px;
+  margin-top: 20px;
 }
 .nav-item {
   display: flex;
@@ -40,10 +41,9 @@ header{
 
   font-weight: 400;
 }
-.btn  {
+.btn {
   padding: 10px 25px;
   font-weight: 700;
-  
 
   border: none;
   background: #fd6e0a;
@@ -53,14 +53,121 @@ header{
 .name-color {
   color: #fd6e0a;
 }
-.banner{
+.banner {
   display: flex;
-  padding: 30px 30px 30px 150px;
+  padding: 30px 30px 0px 150px;
   align-items: center;
- 
+  justify-content: space-between;
 }
 
-.header-img img{
-  width: 500px;
+.header-img img {
+  width: 584px;
+  height: 676px;
+}
+.banner-greeting {
+  color: var(--dark-02, #474747);
+
+  font-size: 45px;
+  margin-bottom: 0px;
+
+  font-weight: 600;
+  line-height: normal;
+}
+
+.banner-title {
+  color: var(--dark-01, #181818);
+
+  font-size: 85px;
+
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 20px;
+}
+
+.banner-content p {
+  display: flex;
+  width: 585px;
+  flex-direction: column;
+  flex-shrink: 0;
+  margin-top: 20px;
+}
+.btn2 {
+  background-color: #fff8f3;
+  color: #fd6e0a;
+  padding: 10px 25px;
+  font-weight: 700;
+  border: 1px solid #fd6e0a;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.fa-download {
+  width: 24px;
+  height: 24px;
+}
+.fa-phone {
+  width: 24px;
+  height: 24px;
+}
+
+.main-section {
+padding: 130px;
+background-color: #FFF8F3;
+margin: 80px;
+
+}
+
+.main-section h1 {
+  color: var(--dark-01, #181818);
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+ 
+ 
+}
+.main-section p {
+  color: var(--dark-03, #757575);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.main-name {
+  display: flex;
+  justify-content: center;
+
+}
+.main-data p{
+  margin-right: 20px;
+
+}
+.main-data h4{
+ margin-right: 20px;
+
+}
+
+
+.work{
+  padding-top: 0px;
+  padding-left: 130px;
+  padding-right: 130px;
+}
+.work h1{
+  color: var(--dark-01, #181818);
+  text-align: center;
   
+  font-size: 35px;
+ 
+  font-weight: 700;
+ 
+
+ 
+}
+.work p{
+  color: var(--dark-03, #757575);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 20px;
+ 
 }
